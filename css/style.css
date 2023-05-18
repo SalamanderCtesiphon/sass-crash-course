@@ -5,6 +5,26 @@
   overflow: auto;
 }
 
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +47,7 @@ a {
 
 .showcase {
   background-color: #0e6cff;
-  color: white;
+  color: #fff;
   height: 600px;
 }
 .showcase nav {
@@ -43,11 +63,11 @@ a {
 .showcase nav li {
   padding: 15px;
 }
+.showcase nav a {
+  color: #fff;
+}
 .showcase nav a:hover {
   color: #ff8700;
-}
-.showcase a {
-  color: white;
 }
 .showcase .showcase-content {
   height: 100%;
